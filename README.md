@@ -6,26 +6,26 @@
     
 1. Navegar a la carpeta donde clonaremos el repositorio, por ejemplo Desktop
 
-    - Navegar a carpeta:
-        ```
-        cd Desktop/
-        ```
+    Navegar a carpeta:
+    ```
+    cd Desktop/
+    ```
 
-    - Listar elementos de la carpeta
-        ```
-        ls
-        ```
+    Listar elementos de la carpeta
+    ```
+    ls
+    ```
     
-    - Volver atrás, carpeta anterior
-        ```
-        cd ..
-        ```
+    Volver atrás, carpeta anterior
+    ```
+    cd ..
+    ```
       
 2. Clonar repositorio (se creará una carpeta dentro de la carpeta a la que hemos navegado)
 
-```
-gh repo clone FSDSTR1023/css-avanzado
-```
+    ```
+    gh repo clone FSDSTR1023/css-avanzado
+    ```
 
 Este comando lo podéis encontrar en github > Code (botón verde). Cada repositorio tiene este comnado actualizando el nombre del repositorio en cada caso.
 
@@ -37,32 +37,31 @@ Este comando lo podéis encontrar en github > Code (botón verde). Cada reposito
 
 4. Crear una rama nueva: 
 
-```
-git branch
-```
-    - Estándar nombre ramas: nombre/ft-flex `cpicatoste/ft-nav`
-    - Ejemplo = `git branch cpicatoste/ft-nav`
+    ```
+    git branch
+    ```
+Estándar nombre ramas: nombre/ft-flex `cpicatoste/ft-nav`. Ejemplo = `git branch cpicatoste/ft-nav`
         
 5. Navegar a la rama creada: 
 
-```
-git checkout
-```
-    - Ejemplo: `git checkout cpicatoste/ft-nav`
+    ```
+    git checkout
+    ```
+Ejemplo: `git checkout cpicatoste/ft-nav`
 
 ### Iniciar proyecto
 
 6. Instalar las dependencias de node: `npm i` o `npm install`
 
-```
-npm install
-```
+    ```
+    npm install
+    ```
 
 7. Levantar el proyecto:
 
-```
-npm run
-```
+    ```
+    npm run
+    ```
 
 ### Subir cambios a tu rama de github
 
