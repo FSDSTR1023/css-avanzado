@@ -6,9 +6,13 @@
     - `cd` navega a la carpeta que le indiques después `cd Desktop/`
     - `ls` lista los elementos de la carpeta en la que nos encontramos
     - `cd ..` navegas a la carpeta anterior, la que contiene la carpeta en la que estás en ese momento
+      
+2. Clonar repositorio el dicha carpeta con el siguiente comando `gh repo clone FSDSTR1023/css-avanzado` (ir a github y copiar el comando que os indique desplegando el botón verde Code)
 
-3. Clonar repositorio el dicha carpeta con el siguiente comando `gh repo clone FSDSTR1023/css-avanzado` (ir a github y copiar el comando que os indique desplegando el botón verde Code)
-
+3. Abrir la carpeta creada tras el clon en Visual Studio Code (VSC)
+    - Si estás dentro de VSC: File > Open Folder > Seleccionar la carpeta y abrir
+    - Arrastrar carpeta a VSC
+      
 4. Crear una rama nueva: `git branch nombre-rama`
 
     - Estándar nombre ramas: nombre/ft-flex `cpicatoste/ft-nav`
