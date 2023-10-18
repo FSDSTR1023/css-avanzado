@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <nav className='nav'>
+        <img className='logo' src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="tailwind logo" />
+        <ul className='nav-item'>
+          <li className='nav-item-list'><a href="#">
+            Product
+          </a></li>
+          <li className='nav-item-list'><a href="#">
+            Features
+          </a></li>
+          <li className='nav-item-list'><a href="#">
+            Marketplace
+          </a></li>
+          <li className='nav-item-list'><a href="#">
+            Company
+          </a></li>
+          <li className='nav-item-list'><a href="#">
+            Log in &rarr;
+          </a></li>
+        </ul>
+      </nav>
+    </>
   );
 }
 
