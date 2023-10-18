@@ -23,9 +23,9 @@
       
 2. Clonar repositorio (se creará una carpeta dentro de la carpeta a la que hemos navegado)
 
-    ```
-    gh repo clone FSDSTR1023/css-avanzado
-    ```
+```
+gh repo clone FSDSTR1023/css-avanzado
+```
 
 Este comando lo podéis encontrar en github > Code (botón verde). Cada repositorio tiene este comnado actualizando el nombre del repositorio en cada caso.
 
@@ -37,33 +37,35 @@ Este comando lo podéis encontrar en github > Code (botón verde). Cada reposito
 
 4. Crear una rama nueva: 
 
-    ```
-    git branch
-    ```
+```
+git branch
+```
+
 Estándar nombre ramas: nombre/ft-flex `cpicatoste/ft-nav`. Ejemplo = `git branch cpicatoste/ft-nav`
         
 5. Navegar a la rama creada: 
 
-    ```
-    git checkout
-    ```
+```
+git checkout
+```
+
 Ejemplo: `git checkout cpicatoste/ft-nav`
 
 ### Iniciar proyecto
 
 6. Instalar las dependencias de node: `npm i` o `npm install`
 
-    ```
-    npm install
-    ```
+```
+npm install
+```
 
 7. Levantar el proyecto:
 
-    ```
-    npm run
-    ```
+```
+npm run
+```
 
-### Subir cambios a tu rama de github
+### Commit y push desde menú lateral de VSC
 
 8. Hacer los cambios del código
 
@@ -73,47 +75,53 @@ Ejemplo: `git checkout cpicatoste/ft-nav`
     - Hacer `commit`
     - Hacer `push` desplegando el menú o `Syncronize branch`
 
-    Para hacer un `commit` y luego un `push` en Git desde la Terminal, puedes seguir los siguientes pasos utilizando la línea de comandos:
+### Commit y push desde la Terminal
 
-        1. **Añadir cambios al área de preparación (staging area):**
+Para hacer un `commit` y luego un `push` en Git desde la Terminal, puedes seguir los siguientes pasos utilizando la línea de comandos:
+
+1. **Añadir cambios al área de preparación (staging area):**
+
+Si quieres añadir todos los archivos modificados:
+
+```
+git add .
+```
+
+Si sólo quieres añadir algunos archivos en particular:
+
+```.
+git add nombre_del_archivo1 nombre_del_archivo2
+```
+
+2. **Hacer un commit de esos cambios:**
+
+```
+git commit -m "Mensaje descriptivo del commit"
+```
         
-        Si quieres añadir todos los archivos modificados:
-        ```
-        git add .
-        ```
+3. **Push (empujar) esos cambios al repositorio remoto:**
 
-        Si sólo quieres añadir algunos archivos en particular:
-        ```.
-        git add nombre_del_archivo1 nombre_del_archivo2
-        ```
+Si ya has configurado una rama por defecto, puedes simplemente usar:
 
-        2. **Hacer un commit de esos cambios:**
+```
+git push
+```
 
-        ```
-        git commit -m "Mensaje descriptivo del commit"
-        ```
+Si quieres especificar el nombre del repositorio remoto (por defecto suele ser `origin`) y la rama (por ejemplo, `main` o `master`):
 
-        3. **Push (empujar) esos cambios al repositorio remoto:**
+```
+git push origin nombre_de_la_rama
+```
 
-        Si ya has configurado una rama por defecto, puedes simplemente usar:
-        ```
-        git push
-        ```
+Entonces, resumiendo, el flujo básico sería:
 
-        Si quieres especificar el nombre del repositorio remoto (por defecto suele ser `origin`) y la rama (por ejemplo, `main` o `master`):
-        ```
-        git push origin nombre_de_la_rama
-        ```
-
-        Entonces, resumiendo, el flujo básico sería:
-
-        ```bash
-        git add .
-        git commit -m "Tu mensaje aquí"
-        git push
-        ```
+```bash
+git add .
+git commit -m "Tu mensaje aquí"
+git push
+```
         
-        Siempre es buena idea asegurarse de tener la última versión del repositorio antes de hacer un push, así que podrías hacer un `git pull` antes de estos pasos si estás trabajando en colaboración con otros. Esto ayudará a reducir posibles conflictos.
+Siempre es buena idea asegurarse de tener la última versión del repositorio antes de hacer un push, así que podrías hacer un `git pull` antes de estos pasos si estás trabajando en colaboración con otros. Esto ayudará a reducir posibles conflictos.
 
 ### Configuración global de git
 
