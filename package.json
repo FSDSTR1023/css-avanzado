@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:FSDSTR1023/css-avanzado.git",
+  "author": "Sabi <sabi456@gmail.com>",
+  "license": "MIT"
 }
