@@ -52,3 +52,77 @@ gap: 28px;
 list-style-type: none;
 padding: 0 20px 0 0 ;
 }
+
+.container-cartas{
+  padding: 10px 30px;
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(400px, 100px);
+  background-color: #545a64;
+  
+}
+.card-container{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+
+}
+.card-container img{  
+  width: 75%;
+  border-radius: 100px;
+  
+}
+.card-container h1 {
+  font-size: 18px;
+}
+.card-container h2 {
+  
+  color: #545a64;
+  font-size: 15px;
+}
+.card-container p{
+  padding: 7px 20px;
+  border: 1px rgba(red, green, blue, 0.15);
+  border-radius: 15px;
+  color: rgb(9, 187, 9) ;
+  background-color: rgb(207, 255, 207);
+}
+
+.card-container a{
+  text-decoration: none;
+  color: #282c34;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 25px;
+
+}
+.button{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+ 
+   
+}
+.button a{
+  border-right: 1px solid black;
+  padding: 10px;
+  justify-content: space-between;
+
+}
+.card-container .button .button1{
+
+
+  
+}
+.card-container .button .button2{
+  
+  border-right: white;
+}
