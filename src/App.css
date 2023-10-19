@@ -20,7 +20,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
   gap: 1rem;
   top: 0;
   width: 100%;
