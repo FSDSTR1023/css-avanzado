@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -11,6 +12,51 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+/* navbar alignment */
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  top: 0;
+  width: 100%;
+  min-width: 375px;
+  background-color: rgb(58, 49, 49);
+}
+
+@media (max-width: 475px) {
+  .navbar {
+    /* Change to a vertical layout */
+    display: flex;
+    flex-direction: column;
+    .nav-items {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+/* container for items in navbar */
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  width: 100%;
+  justify-content: flex-end;
+}
+/* individual item in navbar */
+.item {
+  padding: 1%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* hover individual item in navbar */
+.item:hover {
+  background-color: rgba(240, 255, 255, 0.3);
+  border-radius: 1rem;
 }
 
 .App-header {
