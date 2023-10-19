@@ -37,6 +37,7 @@
   }
 }
 
+
 /* EJERCICIO 1 */
 
 .nav-wrapper {
@@ -101,13 +102,17 @@ a {
 }
 
 
+
+
 /* EJERCICIO 3 */
+
 #ejercicio3 {
   background-image: url('./paisaje.jpg');
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 15px;
 }
 
 #tituloEjercicio3 {
@@ -154,5 +159,103 @@ a {
 
 .toolDescription {
   color:#969696;
+  margin-top: 0;
+}
+
+
+
+
+/* EJERCICIO 4 */
+
+#ejercicio4 {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#allReviews {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 75%;
+}
+
+#reviewsSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  width: 50%;
+}
+
+.reviewValueEstadisticas {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewValuePercentage {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+
+#shareThoughts {
+  justify-self: left;
+}
+
+#writeAReview {
+  background-color: white;
+  border: 0.5px solid #cccccc;
+  width: 90%;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+#writeAReview:hover {
+  background-color: rgb(230, 229, 229);
+}
+
+.userReview {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 1px solid #e0e0e0;
+}
+
+.userReviews .userReview:nth-child(1) {
+  border: 0;
+}
+
+.userProfile {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
+.userIcon {
+  width: 6%;
+  height: 6%;
+}
+
+.userInfo {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  align-self: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.userScore {
+  margin-top: 0;
+}
+
+.reviewDescription {
   margin-top: 0;
 }

@@ -189,6 +189,81 @@ function App() {
         </div>
       </section>
 
+
+      
+      {/* Ejercicio 4 */}
+      <section id="ejercicio4">
+        <h2>Ejercicio 4</h2>
+        <div id="allReviews">
+          <div id="reviewsSummary">
+            <h3>Customers Reviews</h3>
+            <p>⭐⭐⭐⭐⭐ Based on 1624 reviews</p>
+            <div id="reviewsEstadisticas">
+              <div class="reviewValuePercentage">
+                <label for="percentage5">5 ⭐ </label>
+                <progress max="100" value="63" id="percentage5" class="percentage"></progress>
+                <label for="percentage5"> 63%</label>
+              </div>
+              <div class="reviewValuePercentage">
+                <label for="percentage4">4 ⭐</label>
+                <progress max="100" value="10" id="percentage4" class="percentage"></progress>
+                <label for="percentage4">10%</label>
+              </div>
+              <div class="reviewValuePercentage">
+                <label for="percentage3">3 ⭐ </label>
+                <progress max="100" value="6" id="percentage3" class="percentage"></progress>
+                <label for="percentage3">6%</label>
+              </div>
+              <div class="reviewValuePercentage">
+                <label for="percentage2">2 ⭐ </label>
+                <progress max="100" value="12" id="percentage2" class="percentage"></progress>
+                <label for="percentage2">12%</label>
+              </div>
+              <div class="reviewValuePercentage">
+                <label for="percentage1">1 ⭐ </label>
+                <progress max="100" value="9" id="percentage1" class="percentage"></progress>
+                <label for="percentage1">9%</label>
+              </div>
+            </div>
+            <h4>Share your thoughts</h4>
+            <p id="shareThoughts">If you've used this product, share your thoughts with other customers</p>
+            <input type="button" id="writeAReview" value="Write a review"></input>
+          </div>
+          <div class="userReviews">
+            <div class="userReview">
+              <div class="userProfile">
+                <img src={userImage} class="userIcon" alt="userIcon" />
+                <div class="userInfo">
+                  <p class="userName"><strong>Emily Selman</strong></p>
+                  <p class="userScore">⭐⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              <p class="reviewDescription">This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
+            </div>
+            <div class="userReview">
+              <div class="userProfile">
+                <img src={userImage} class="userIcon" alt="userIcon" />
+                <div class="userInfo">
+                  <p class="userName"><strong>Hector Gibbons</strong></p>
+                  <p class="userScore">⭐⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              <p class="reviewDescription">Before getting the Ruck Snack, I struggled my whole life with pulverized snacks, endless crumbs, and other heartbreaking snack catastrophes. Now, I can stow my snacks with confidence and style!</p>
+            </div>
+            <div class="userReview">
+              <div class="userProfile">
+                <img src={userImage} class="userIcon" alt="userIcon" />
+                <div class="userInfo">
+                  <p class="userName"><strong>Mark Edwards</strong></p>
+                  <p class="userScore">⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              <p class="reviewDescription">I love how versatile this bag is. It can hold anything ranging from cookies that come in trays to cookies that come in tins.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
