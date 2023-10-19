@@ -1,23 +1,58 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  gap: 2rem;
-  padding-top: 1rem;
+  gap: 1rem;
+  padding: 1rem;
   background-color: rgb(203, 203, 223);
-  width: 100%;
-  height: 100vh;
+  width: 90%;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 50%;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20%;
-  padding: 1rem;
   background-color: white;
-  border-radius: 1rem;
+  padding-top: 1rem;
+  border-radius: 0.8rem;
   justify-content: space-between;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.card > button {
+  background-color: rgba(195, 236, 190, 0.4);
+  border-color: rgba(136, 168, 132, 0.4);
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.card > p {
+  color: rgba(0, 0, 0, 0.4);
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+}
+
+.card > h3 {
+  color: rgba(0, 0, 0, 0.8);
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
 }
 
 .contact-details {
@@ -25,6 +60,7 @@
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  margin-top: 1rem;
 }
 
 .contact-details > p {
@@ -33,4 +69,27 @@
   display: flex;
   flex-direction: row;
   align-self: center;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  color: rgba(0, 0, 0, 0.6);
+  border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+  border-right: 0.1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  cursor: pointer;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  color: rgba(0, 0, 0, 0.6);
+  border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  cursor: pointer;
 }
