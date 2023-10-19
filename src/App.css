@@ -78,7 +78,7 @@
 }
 
 .tarjeta-ej2 {
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   padding: 2px;
   margin: 4px;
   background-color: white;
@@ -93,4 +93,66 @@
   width: 100%;
   border-top: 0.5px solid #000000;
   margin: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+/* EJERCICIO 3 */
+#ejercicio3 {
+  background-image: url('./paisaje.jpg');
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tituloEjercicio3 {
+  color: red;
+  font-size: 50px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000000;
+}
+
+#toolBar {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  background-color: white;
+}
+
+.tool:hover {
+  background-color: #e9e9e9;
+}
+
+.tool {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding: 10px;
+  margin: 15px;
+}
+
+.toolIcon {
+  width: 10%;
+  height: 10%;
+}
+
+.toolText {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolName {
+  align-self: flex-start;
+  margin-top: 0;
+}
+
+.toolDescription {
+  color:#969696;
+  margin-top: 0;
 }
