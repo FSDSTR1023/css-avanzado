@@ -1,19 +1,27 @@
-.nav-logo {
-  height: 80px;
-  aspect-ratio: 1;
-  pointer-events: none;
+body {
+  background-color: #f3f4f6;
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
 }
 
+/* Navbar */
 .nav-wrapper {
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  font-family: sans-serif;
   font-weight: 600;
 }
-
+.nav-logo {
+  height: 80px;
+  aspect-ratio: 1;
+  pointer-events: none;
+}
 .nav-items {
   display: flex;
   flex-direction: row;
@@ -23,7 +31,6 @@
   font-size: 16px;
   cursor: pointer;
 }
-
 .nav-items li {
   list-style-type: none;
 }
@@ -31,3 +38,60 @@
   color: rgb(97 218 251);
 }
 
+/* Cards */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 5rem;
+  width: 80%;
+}
+.card {
+  background-color: white;
+  padding: 2rem 0 0 0;
+  text-align: center;
+  border-radius: .5rem;
+  box-shadow: 0px 0px 5px 1px rgba(150, 150, 150, 0.2);
+  width: 300px;
+}
+.card-image {
+  border-radius: 50%;
+  height: 120px;
+}
+.card-position {
+  color: #999999;
+  font-size: .9rem;
+}
+.card-rights{
+  background-color: #f0fdf4;
+  border-radius: 100vh;
+  color: #08521e;
+  border: 1px solid #16973d65;
+  display: inline-block;
+  font-size: .75rem;
+  padding: .25rem .5rem;
+  margin-top: .25rem;
+}
+.card-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.card-button {
+  color: #9ca3af;
+  color: black;
+  background-color: white;
+  border-top: 1px solid #9ca3af4f;
+  padding: 1rem;
+  text-decoration: none;
+  width: 100%;
+  font-weight: 600;
+}
+.left-button {
+  border-radius: 0 0 0 .5rem;
+  border-right: 1px solid #9ca3af4f;
+}
+.right-button {
+  border-radius: 0 0 .5rem 0;
+}
