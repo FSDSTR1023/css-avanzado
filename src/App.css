@@ -49,7 +49,7 @@ main {
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 5rem;
-  width: 80%;
+  width: 75%;
 }
 .card {
   background-color: white;
@@ -57,11 +57,15 @@ main {
   text-align: center;
   border-radius: .5rem;
   box-shadow: 0px 0px 5px 1px rgba(150, 150, 150, 0.2);
-  width: 300px;
+  width: 280px;
+}
+.card > p {
+  margin: .5rem;
 }
 .card-image {
   border-radius: 50%;
-  height: 120px;
+  height: 125px;
+  padding: .5rem;
 }
 .card-position {
   color: #999999;
@@ -75,15 +79,13 @@ main {
   display: inline-block;
   font-size: .75rem;
   padding: .25rem .5rem;
-  margin-top: .25rem;
 }
 .card-actions {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 .card-button {
-  color: #9ca3af;
   color: black;
   background-color: white;
   border-top: 1px solid #9ca3af4f;
@@ -91,6 +93,14 @@ main {
   text-decoration: none;
   width: 100%;
   font-weight: 600;
+  font-size: .9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-button svg {
+  color: #9ca3af;
+  height: 20px;
 }
 .left-button {
   border-radius: 0 0 0 .5rem;
