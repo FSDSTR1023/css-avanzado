@@ -37,6 +37,8 @@
   }
 }
 
+/* EJERCICIO 1 */
+
 .nav-wrapper {
   display: flex;
   width: 95%;
@@ -61,5 +63,34 @@
   flex-direction: row;
 }
 
-#lista-ej1 li {
+
+
+/* EJERCICIO 2 */
+
+.tarjetas-ej2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: center;
+  background-color: #d6d6d6d5;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.tarjeta-ej2 {
+  border: 1px solid #000000;
+  padding: 2px;
+  margin: 4px;
+  background-color: white;
+  padding: 0;
+}
+
+.userLinks {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 0.5px solid #000000;
+  margin: 0;
 }
