@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-wrapper {
+  display: flex;
+  width: 95%;
+}
+
+#contenedor-logo-ej1 {
+  display: flex;
+  align-self: flex-start;
+  width: 50%;
+}
+
+#logo-ej1 {
+  align-self: flex-start;
+  height: 10vmin;
+}
+
+#lista-ej1 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 50%;
+  flex-direction: row;
+}
+
+#lista-ej1 li {
+}
