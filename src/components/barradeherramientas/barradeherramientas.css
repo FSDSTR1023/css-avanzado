@@ -1,6 +1,6 @@
 .bar-container{
-    background: #f9f9f9;
-    padding: 50px;
+    background: #ffffff;
+    padding: 45px 10px 80px;
 }
 .bar-module{
     background: white;
@@ -15,7 +15,7 @@
     align-items: center;
     padding: 15px;
 }
-.bar-image{
+.bar-image img{
     border-radius: 20%;
     background-color: blueviolet;
     width: 40px;
@@ -32,11 +32,13 @@
 .bar-title{
     margin-bottom: 2px;
 }
-
-.pink{
+.purple{
+    background-color: blueviolet;
+}
+.pink {
     background-color: rgb(226, 43, 226);
 }
-.green{
+.green {
     background-color: rgb(43, 226, 95);
 }
 .blue{
