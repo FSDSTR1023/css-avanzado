@@ -2,193 +2,99 @@
 import "./App.css";
 
 function App() {
-  return (
-    <div className="background-container">
-      <div className="toolbar-container">
-        <div className="searchbar">
-          <div className="search-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-              class="u aa cq dt nz sb axp"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </div>
-          <input class="search-input" placeholder="Search..." />
-        </div>
-        <div className="tools">
-          <div className="tool-item">
-            <div className="icon-text">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Text</h4>
-              <p>Add freeform text with basic formatting options.</p>
-            </div>
-          </div>
-          <div className="tool-item">
-            <div className="icon-video">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Video</h4>
-              <p>Add a video from YouTube, Viemo, or other services.</p>
-            </div>
-          </div>
-          <div className="tool-item">
-            <div className="icon-page">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Page</h4>
-              <p>Add a new blank page to your project.</p>
-            </div>
-          </div>
-          <div className="tool-item">
-            <div className="icon-calendar">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Calendar</h4>
-              <p>Add a full month calendar or a week view calendar.</p>
-            </div>
-          </div>
-          <div className="tool-item">
-            <div className="icon-table">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0112 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Table</h4>
-              <p>Add a table for displaying larger sets of data.</p>
-            </div>
-          </div>
-          <div className="tool-item">
-            <div className="icon-code">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Code</h4>
-              <p>Add raw HTML, JS, or CSS.</p>
-            </div>
-          </div>
-          <div className="tool-item">
-            <div className="icon-image">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="oc se bah"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"
-                ></path>
-              </svg>
-            </div>
-            <div className="tooltype">
-              <h4>Image</h4>
-              <p>Add a simple image or a photo gallery.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      ;
-    </div>
-  );
+  const movies = [
+    [
+      {
+        title: "Antebellum",
+        year: 2020,
+        cast: [
+          "Janelle Monáe",
+          "Eric Lange",
+          "Jena Malone",
+          "Jack Huston",
+          "Kiersey Clemons",
+          "Gabourey Sidibe",
+        ],
+        genres: ["Thriller"],
+        href: "Antebellum_(film)",
+        extract:
+          "Antebellum is a 2020 American thriller film written and directed by Gerard Bush and Christopher Renz in their feature directorial debuts. The film stars Janelle Monáe, Eric Lange, Jena Malone, Jack Huston, Kiersey Clemons, and Gabourey Sidibe, and follows a 21st century African-American woman who wakes to find herself mysteriously in a Southern slave plantation from which she must escape.",
+        thumbnail:
+          "https://upload.wikimedia.org/wikipedia/en/2/2e/Antebellum_poster.jpeg",
+        thumbnail_width: 259,
+        thumbnail_height: 384,
+      },
+      {
+        title: "The Nest",
+        year: 2020,
+        cast: [
+          "Jude Law",
+          "Carrie Coon",
+          "Charlie Shotwell",
+          "Oona Roche",
+          "Adeel Akhtar",
+        ],
+        genres: ["Drama", "Romance"],
+        href: "The_Nest_(2020_film)",
+        extract:
+          "The Nest is a 2020 romantic drama film written, directed, and produced by Sean Durkin. The film stars stars Jude Law, Carrie Coon, Charlie Shotwell, Oona Roche, and Adeel Akhtar.",
+        thumbnail:
+          "https://upload.wikimedia.org/wikipedia/en/c/cc/The_Nest_poster.jpeg",
+        thumbnail_width: 259,
+        thumbnail_height: 384,
+      },
+      {
+        title: "Blackbird",
+        year: 2020,
+        cast: [
+          "Susan Sarandon",
+          "Kate Winslet",
+          "Mia Wasikowska",
+          "Lindsay Duncan",
+          "Rainn Wilson",
+          "Bex Taylor-Klaus",
+          "Sam Neill",
+        ],
+        genres: ["Drama"],
+        href: "Blackbird_(2019_film)",
+        extract:
+          "Blackbird is a 2019 American drama film directed by Roger Michell and written by Christian Torpe. It is a remake of the 2014 Danish film Silent Heart, also written by Torpe. It stars Susan Sarandon, Kate Winslet, Mia Wasikowska, Lindsay Duncan, Rainn Wilson, Bex Taylor-Klaus, and Sam Neill.",
+        thumbnail:
+          "https://upload.wikimedia.org/wikipedia/en/4/4d/Blackbird_poster.jpg",
+        thumbnail_width: 259,
+        thumbnail_height: 384,
+      },
+      {
+        title: "Lost Girls & Love Hotels",
+        year: 2020,
+        cast: ["Alexandra Daddario", "Takehiro Hira", "Carice van Houten"],
+        genres: ["Drama", "Erotic", "Thriller"],
+        href: "Lost_Girls_%26_Love_Hotels",
+        extract:
+          "Lost Girls & Love Hotels is a 2020 American erotic thriller drama film directed by William Olsson from a screenplay by Catherine Hanrahan, based on Hanrahan's 2006 novel Lost Girls and Love Hotels. The film stars Alexandra Daddario as an American English teacher in Tokyo, who loses herself to the city's nightlife and begins an affair with a member of the Yakuza gangs. It was released through video on demand on September 18, 2020, by Astrakan Film AB.",
+        thumbnail:
+          "https://upload.wikimedia.org/wikipedia/en/4/44/Lost_Girls_%26_Love_Hotels_film_poster.png",
+        thumbnail_width: 220,
+        thumbnail_height: 322,
+      },
+      {
+        title: "Killian & the Comeback Kids",
+        year: 2020,
+        cast: [
+          "Taylor A. Purdee",
+          "John Donchak",
+          "Nathan Purdee",
+          "Kassie DePaiva",
+        ],
+        genres: ["Musical"],
+        href: "Killian_%26_the_Comeback_Kids",
+        extract:
+          "Killian & the Comeback Kids is a 2020 American folk-rock musical film written and directed by Taylor A. Purdee. The film stars Purdee, John Donchak, Nathan Purdee, and Kassie DePaiva along with an ensemble cast that features Maddi Jane and Lee Grant. Killian & the Comeback Kids follows a mixed-race musician who finds himself back in his struggling rural hometown after graduating from an expensive university. The film's screenplay and original music have been preserved by The Academy of Motion Pictures Arts and Sciences' permanent archive.",
+      },
+    ],
+  ];
+  console.log(movies);
+  return <div className="app"></div>;
 }
 
 export default App;
