@@ -1,9 +1,9 @@
-.App {
+  .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  width: 10%;
   pointer-events: none;
 }
 
@@ -35,4 +35,134 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  color: black;
+}
+
+
+/* NAVBAR */
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 5rem;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-items li {
+  list-style-type: none;
+}
+
+
+/* TARJETAS */
+
+img {
+  border-radius: 50%;
+  width: 120px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+  margin: auto 100px;
+  padding: 30px;
+  background-color: rgb(236, 236, 236);
+}
+
+.card {
+  border: solid 1px grey;
+  border-radius: 10px;
+  width: 230px;
+  background-color: white;
+}
+
+.admin {
+  border: solid 1px rgb(143, 188, 143);
+  border-radius: 30px;
+  background-color: rgb(208, 221, 208);
+  color: green;
+  padding: 4px 6px;
+}
+
+.personal-info {
+  padding: 30px 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 1px grey;
+  border-width: 100%;
+}
+
+.contact-button {
+  box-sizing: border-box;
+  background-color: inherit;
+  padding-block: 15px;
+  width: 100%;
+  border: solid 0.5px grey;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.contact-button .call {
+  border-right: none;
+}
+
+
+/* BARRA DE HERRAMIENTAS */
+
+
+.barra-herramientas {
+  background-color: #b6d4dc;
+  width: 100%;
+  text-align: left;
+}
+
+.search-box {
+  border-radius: 20px;
+  width: 50%;
+  margin: 80px auto;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+}
+
+svg {
+  height: 20px;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #61dafb;
+}
+
+.search-bar {
+  border-bottom: solid 1px grey;
+  padding: 20px 0px;
+}
+
+.search-items {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
 }
