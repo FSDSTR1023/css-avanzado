@@ -5,7 +5,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav className='container'>
         <img src={logo} className="App-logo" alt="logo" />
+        <div>
+          <ul className='contenido'>
+            <li>Product</li>
+            <li>Feacture</li>
+            <li>MarketPleace</li>
+            <li>company</li>
+            <li>log in</li>
+          </ul>
+        </div>
+        </nav>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,6 +28,7 @@ function App() {
         >
           Learn React
         </a>
+        
       </header>
     </div>
   );
