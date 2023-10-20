@@ -2,11 +2,11 @@ import React from 'react';
 import './navbar.css';
 function Navbar() {
 return (
-<div class="navbar-content">
-   <div class="logo">
+<div className="navbar-content">
+   <div className="logo">
       🦄 Header
    </div>
-   <div class="navbar-text">
+   <div className="navbar-text">
       <p>Product</p>
       <p>Features</p>
       <p>Marketplace</p>

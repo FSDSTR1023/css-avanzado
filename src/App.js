@@ -1,6 +1,7 @@
 import Navbar from './components/navbar/Navbar';
 import Cards from './components/cards/Cards';
 import BarraDeHerramientas from './components/barradeherramientas/BarraDeHerramientas';
+import Movies from './Movies';
 
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar /> 
       <Cards /> 
       <BarraDeHerramientas /> 
+      <Movies />
     </div>
   );
 }
