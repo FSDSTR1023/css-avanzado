@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #6e89ba;
-  min-height: 100vh;
+  min-height: 50px;
   /* display: flex;
   flex-direction: row;
   align-items: center;
@@ -58,4 +58,21 @@
 }
 .nav-list li {
   list-style-type: none;
+}
+
+.body{
+  background-color: #6e89ba; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
 }
