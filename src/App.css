@@ -194,3 +194,148 @@ main {
 .tool-color7 {
   background-color: #f43f5e;
 }
+
+/* Reviews */
+.review-wrapper {
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgba(150, 150, 150, 0.2);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+@media (min-width: 1560px) {
+  .review-wrapper {
+    flex-direction: row;
+    gap: 5rem;
+  }
+}
+.review-wrapper > * {
+  width: 80%;
+  max-width: 600px;
+}
+.review-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review-summary {
+  text-align: left;
+}
+.review-summary * {
+  margin: .5rem 0;
+}
+.review-title {
+  font-size: 1.5rem;
+}
+.review-stars {
+  display: flex;
+  align-items: center;
+}
+.review-count {
+  margin-left: .5rem;
+  font-size: .9rem;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25px;
+  margin: .5rem;
+}
+.empty-bar {
+  max-width: 500px;
+  width: 100%;
+  height: 12px;
+  border-radius: 100vw;
+  background-color: #f3f4f6;
+  border: 1px solid rgba(192, 192, 192, 0.2);
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+.full-bar1,
+.full-bar2,
+.full-bar3,
+.full-bar4,
+.full-bar5 {
+  background-color: #facc15;
+  height: 12px;
+  border-radius: 100vw;
+}
+.full-bar1 {
+  width: 9%;
+}
+.full-bar2 {
+  width: 12%;
+}
+.full-bar3 {
+  width: 6%;
+}
+.full-bar4 {
+  width: 10%;
+}
+.full-bar5 {
+  width: 63%;
+}
+.review-add {
+  margin: 3rem 0 0;
+}
+.review-add h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.review-add p {
+  font-size: .9rem;
+  color: gray;
+}
+.review-add button {
+  padding: .75rem 2rem;
+  background-color: white;
+  border-radius: .5rem;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+  margin: 1rem 0;
+}
+.review-add button:hover {
+  background-color: rgba(223, 223, 223, 0.2);
+}
+.review-entry {
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+}
+.review-entry:last-of-type {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.review-user {
+  display: flex;
+  align-items: center;
+}
+.review-user img {
+  border-radius: 50%;
+  height: 50px;
+}
+.review-user-info {
+  margin: 0 .75rem;
+}
+.review-user-info p {
+  margin: 0;
+  font-weight: 600;
+}
+.review-user-stars {
+  display: flex;
+}
+.review-comment {
+  color: gray;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 0;
+}
