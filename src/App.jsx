@@ -1,6 +1,6 @@
 import './App.css';
 import { Comment } from './components/Comment';
-import { StarIcon } from './components/StarIcon';
+import { StarIcon } from './components/Star-icon';
 import { StarsBar } from './components/Stars-bar';
 
 const comments = [

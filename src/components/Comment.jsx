@@ -1,4 +1,4 @@
-import { StarIcon } from "./StarIcon"
+import { StarIcon } from "./Star-icon"
 
 export const Comment = ({ props }) => {
 

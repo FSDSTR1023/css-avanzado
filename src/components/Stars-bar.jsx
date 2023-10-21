@@ -1,4 +1,4 @@
-import { StarIcon } from "./StarIcon"
+import { StarIcon } from "./Star-icon"
 
 export const StarsBar = ({ stars = '5', percent = '10', color = 'rgb(250, 204, 21)' }) => {
 
