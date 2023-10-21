@@ -1,6 +1,40 @@
 *{
   font-family: sans-serif;
+  
 }
+
+p{
+  font-weight: 150;
+  font-size: 0.9rem;
+}
+
+.nav{
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.nav > img{
+  width: 50px;
+  margin-left: 30px;
+}
+
+.opciones-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+  justify-content: right;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.opciones-nav > li {
+  font-size: 0.9rem;
+}
+
 .cards{
   background-color:#f3f4f6;
   display: flex;
@@ -43,19 +77,21 @@
 
 .card > h5{
   margin-bottom: 0px;
+  font-size: 1rem;;
 }
 
 .card > p{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 
 }
 .admin{
   background-color: hsl(138, 76%, 97%);
   color: #a3ceaf;
-  padding: 4px;
+  padding: 3px 6px;
   border-radius: 2rem;
   border: 1px solid #a3ceaf;
   margin-top: 0px;
+  font-size: 0.7rem;
 }
 
 .botones{
@@ -68,4 +104,177 @@
   border:1px solid #f3f4f6;
   padding: 10px;
   
+}
+
+.reviews-big-container{
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 80px;
+}
+
+.star{
+  color: #facc15;
+}
+
+.customer-reviews{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-reviews > h4{
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.total-star{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0px auto;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.star-progress{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.star-progress > progress{
+  width: 200px;
+  height: 30px;
+}
+
+.customer-reviews > button{
+  background-color: transparent;
+  border:1px solid #cfd3db;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.reviews-container{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.reviews{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.container-img-name-starts{
+  display: flex;
+  align-items: center;
+  gap: 20px
+  
+}
+
+.reviews > div > img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.txt-reviews{
+  line-height : 25px;
+  letter-spacing:0.5px;
+}
+
+.layout{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
+}
+
+.title-layout{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end: 2;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-layout > h3{
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.title-layout > p{
+  font-size: 1.2rem;
+  letter-spacing:0.7px;
+}
+
+.post1, .post2, .post3{
+  padding: 20px 40px
+
+}
+
+.img-post{
+  width: 300px;
+  height: 200px;
+  border-radius: 1.5rem;;
+}
+
+.etiquetas{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.etiquetas > p{
+  font-size: 0.7rem;
+  letter-spacing:0.6px;
+}
+
+.tag{
+  background-color: #ebeef5;
+  padding: 5px 10px;
+  border-radius: 2rem;
+}
+
+.post-title{
+  font-size: 1.2rem;
+  margin: 3px;
+  letter-spacing:0.7px;
+}
+
+.post-txt{
+  line-height : 25px;
+  letter-spacing:0.7px;
+}
+
+.author{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.author > img{
+  border-radius:50%;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 15px;
+}
+
+.author > div > p{
+  font-size: 0.8rem;
+  
+}
+
+.author > div > h6{
+  font-size: 0.8rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
