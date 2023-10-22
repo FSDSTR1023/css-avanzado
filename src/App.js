@@ -161,6 +161,55 @@ function App() {
             </div>
           </div>
         </div>
+        <section id="grid">
+          <div class="container-grid">
+            <div class="caja-1">
+              <h3>Users</h3>
+              <p>A list of all the users in your account including their name, title, email and role.</p>
+            </div>
+            <div class="caja-2">
+              <button>Add user</button>
+            </div>
+          </div>
+            <article>
+              <p class="cabecera">Name</p>
+              <p Title class="cabecera">Title</p>
+              <p Email class="cabecera">Email</p>
+              <p class="cabecera">Role</p>
+              <p class="cabecera"></p>
+              <h4>Lindsay Walton</h4>
+              <p>Front-end Developer</p>
+              <p>lindsay.walton@example.com</p>
+              <p>Member</p>
+              <p>Edit</p>
+              <h4>Courtney Henry</h4>
+              <p>Designer</p>
+              <p>courtney.henry@example.com</p>
+              <p>Admin</p>
+              <p>Edit</p>
+              <h4>Tom Cook</h4>
+              <p>Direct of Product</p>
+              <p>tom.cook@example.com</p>
+              <p>Member</p>
+              <p>Edit</p>
+              <h4>Whitney Francis</h4>
+              <p>Copywriter</p>
+              <p>whitney.francis@example.com</p>
+              <p>Admin</p>
+              <p>Edit</p>
+              <h4>Leonard Krasner</h4>
+              <p>Senior Designer</p>
+              <p>leonard.krasner@example.com</p>
+              <p>Owner</p>
+              <p>Edit</p>
+              <h4>Floyd Miles</h4>
+              <p>Principal Designer</p>
+              <p>floyd.Miles@example.com</p>
+              <p>Member</p>
+              <p>Edit</p>
+            </article>
+          
+        </section>
 
         <p id="info">
           Edit <code>src/App.js</code> and save to reload.
