@@ -152,7 +152,7 @@ function App() {
           <div className='foto'><img className="circular" src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60'></img>
           </div>
           <h3>Cody Fisher</h3>
-          <p>Lead Security Associate</p>
+          <p>Leed Security Associate</p>
           <did className="admin">Admin</did>
         </div>
           <div className='contac'>
