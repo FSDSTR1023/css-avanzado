@@ -1,38 +1,83 @@
-.App {
+*{
+  font-family: sans-serif;
+  
+}
+.contenedor-padre{
+  background-color: aquamarine;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 0.8rem;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  
+  
+
+ 
+
+}
+.card{
+  background-color:hsl(220, 14%, 96%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 30px;
+  border: 0.2px solid #f3f4f6e2;
+  border-radius: 0.8rem;
+  width: 250px;
+  
+  
+
+  
+  
+ 
+ 
+  
+  
+}
+
+.informacion-personal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color:black;
+  font-size: medium; 
+  letter-spacing: 1px;
+  
+  
+}
+
+.informacion-personal > img{
+  border-radius:50%;
+  width: 10rem;
+  margin-top: 20px;
+}
+
+.informacion-personal > p{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ h2 {
+  font-size: medium; 
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.boton{
+  background-color: rgb(203, 222, 189);
+  width: 50%;
+  border:1px solid #f3f4f6;
+  padding: 10px;
+  color: green;
+  border-radius: 4rem;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.formulario{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-between;
+  gap:2rem;
 }
