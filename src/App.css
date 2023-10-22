@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
 }
 .section-container {
   display: flex;
@@ -124,6 +125,135 @@
   color: #61dafb;
 }
 
+.search-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #61dafb;
+  width: 90%;
+  background-color: white;
+
+  gap: 2rem;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 20px #61dafb;
+  width: 70%;
+  margin: 60px;
+}
+.list-container ul {
+  width: 80%;
+  align-items: center;
+  padding: 0;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-bottom: 20px;
+}
+.items-li-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.search-input {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #b3c9f4;
+  border-radius: 10px;
+  padding: 5px;
+  width: 80%;
+  height: 2rem;
+  margin-top: 30px;
+}
+.search {
+  border: none;
+  font-size: 20px;
+}
+.search-svg {
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+.blue-li-svg {
+  background-color: rgb(75, 75, 223);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+.page-li-svg {
+  background-color: rgb(146, 42, 225);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+.aqgreen-li-svg {
+  background-color: rgb(54, 225, 134);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+.aqua-li-svg {
+  background-color: rgb(11, 222, 222);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+.purple-li-svg {
+  background-color: rgb(152, 57, 224);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+.red-li-svg {
+  background-color: rgb(224, 57, 57);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+.liblue-li-svg {
+  background-color: rgb(88, 88, 194);
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+}
+
+.li-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  margin: 0;
+  border: 1px solid #b3c9f4;
+  list-style-type: none;
+  padding: 15px;
+}
+.li-container:hover {
+  background-color: #859ac477;
+}
+.li-container p {
+  margin: 0;
+  margin-left: 20px;
+  width: 100%;
+}
+.paragrph {
+  width: 100%;
+  margin: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
