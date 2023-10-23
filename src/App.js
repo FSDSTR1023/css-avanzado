@@ -16,19 +16,124 @@ function App() {
             </ul>
           </nav>
         </header>
-        <main>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <main className="App-main">
+          <ul className="cardlista">
+            <li><div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Jane Cooper</h3>
+              <p class="cardtitulo">Paradigm Representative</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:janecooper@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Cody Fisher</h3>
+              <p class="cardtitulo">Load Security Associate</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:codyfisher@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Esther Howard</h3>
+              <p class="cardtitulo">Assurance Administrator</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:estherhoward@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1498551172505-8ee7ad69f235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Jenny Wilson</h3>
+              <p class="cardtitulo">Chief Accountability Analyst</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:jennywilson@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1532417344469-368f9ae6d187?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Kristin Watson</h3>
+              <p class="cardtitulo">Investor Data Orchestrator</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:kristinwatson@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Cameron Williamson</h3>
+              <p class="cardtitulo">Product Infrastructure Executive</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:cameronwilliamson@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Courtney Henry</h3>
+              <p class="cardtitulo">Investor Factors Associate</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:courtneyhenry@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div className="cardcontacto">
+            <div className="carddatos">
+              <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" className="cardfoto" alt="foto"></img>
+              <h3 className="cardnombre">Theresa Webb</h3>
+              <p class="cardtitulo">Global Division Officer</p>
+              <p class="cardrole">Admin</p>
+            </div>
+            <div className="cardbotones">
+              <div className="cardemail"><a href="mailto:theresawebb@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVR4nM3Sv0qCcRTG8U+1RAgFQV1ATeI1tLT4XkCDg11AQ+02qUNXYsN7B9EmbeENOLgKOrQFtSjCD/355zVfEewLBw7nPOeBAw//hSMkuNuwknAzpYlRzmrMzknRwbm/OcNnuJlygy4GqMqmgj56uI0XpzgOr/zgHdfR/gpv+MULTlCIDV7xGPoi2vjGM2qh/0ApaB7Qig3ShZ8OcI8hvvCEwzV6S4PABS5XzDc2yGL3Bs0tglSPDSaxLOeI8kQ7F+X9MQYJqELPI/tAugAAAABJRU5ErkJggg=="></img> Email</a></div>
+              <div className="cardcall"><a href="tel:+34666666666"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmklEQVR4nM3SwQoBYRTF8d8Um3kQWwsPYM8DyHt4FFnSrHkPK56AwlZhJ6TR1Kcmq5lPyqmzvP97TvfyT5rggRtGMYAL8uBNDGBdAhQpkrqAWQmwj0nQD8MndGIAzbA584WGeKIbC0iwwBGtWEiKZYC8k7RxCNfZVvmTFPNQJwuwvORr1ToD7D6GC9/rVGqghylWOGNcB/BbvQAQ+CtE3LG6AAAAAABJRU5ErkJggg=="></img> Call</a></div>
+            </div>
+          </div>
+          </li>
+          </ul>
       </main>
+      <footer className="App-footer">
+
+      </footer>
     </div>
   );
 }
