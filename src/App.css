@@ -1,84 +1,97 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/* navbar alignment */
-.navbar {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  gap: 1rem;
-  top: 0;
+.container {
   width: 100%;
-  min-width: 375px;
-  background-color: rgb(58, 49, 49);
+  background-color: white;
+  margin: 0 auto;
 }
 
-@media (max-width: 475px) {
-  .navbar {
-    /* Change to a vertical layout */
-    display: flex;
-    flex-direction: column;
-    .nav-items {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-}
-/* container for items in navbar */
-.nav-items {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem;
-  width: 100%;
-  justify-content: flex-end;
-}
-/* individual item in navbar */
-.item {
-  padding: 1%;
-  font-size: 1rem;
-  cursor: pointer;
-}
-/* hover individual item in navbar */
-.item:hover {
-  background-color: rgba(240, 255, 255, 0.3);
+.app-header {
+  width: 80%;
   border-radius: 1rem;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  row-gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.study {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.info {
+  display: flex;
+  color: rgba(0, 0, 0, 0.4);
+  gap: 1rem;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0.5rem 1rem 0.5rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.info > p {
+  padding: 0.5rem 1rem;
+  background-color: azure;
+  border-radius: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+}
+
+.infoP {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.person {
+  display: flex;
+  width: 100%;
+  padding: 2rem 0;
+  gap: 2rem;
+  align-items: center;
+}
+
+.person-photo {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+h6 {
+  font-size: 1.2rem;
 }
