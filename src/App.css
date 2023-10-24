@@ -1,24 +1,24 @@
 .App {
-  text-align: center;
+  text-align: start;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    transition: 2s;
   }
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  align-items: end;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -33,6 +33,107 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg)
   }
+}
+.Container {
+  display:flex;
+  flex-direction: row-reverse;
+  align-content:center;
+  flex-wrap:wrap;
+  padding-top: 5%;
+  justify-content: center;
+}
+.Bs{
+  grid-area:auto;
+  justify-self: start;
+  align-self: flex-end;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+ 
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgba(9, 9, 88, 0.336);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.Ca{
+  margin-top: 20%;
+  font-size: 35px;
+}
+.Ca h1{
+  font-size: 60px;
+  margin-top:20px;
+}
+.Ca h1 span {
+  color:goldenrod
+}
+#Nosotros{
+  padding:60px 0 ;
+}
+.Rw{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.S1{
+  flex-basis: 40%;
+}
+.S1 img{
+  width: 50%;
+  border-radius: 15px;
+  display: grid;
+ 
+}
+.S2{
+  flex-basis: 60%;
+}
+.S2 p{
+  width: auto;
+  padding-right: 20%;
+}
+
+#Articulos{
+  display: grid;
+  grid-template-rows: 100px 300px 100px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: 
+  'header header'
+  'main aside'
+  'footer footer';
+}
+.Articulo-1{
+  grid-area: Header;
+}
+.Articulo-2{
+  grid-area: main;
+}
+.Articulo-3{
+  grid-area: aside;
+}
+.Articulo-4{
+  grid-area: footer;
+}
+
+.Articulo-1 img{
+  height: auto;
+  width: auto;
 }
