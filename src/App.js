@@ -16,9 +16,80 @@ function App() {
           </ul>
         </nav>
       </header>
-      <div>
-        
+    <div className='ejercicio-cards'>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
       </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+      <div className='card'>
+        <p className='nombre'>Quien sea</p>
+        <p className='cargo'>Lo que sea</p>
+        <p className='rol'>Admin</p>
+        <div className='botones'>
+          <p className='eMail'>eMail</p>
+          <p className='call'>Call</p>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }
