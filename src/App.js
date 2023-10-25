@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -126,27 +125,22 @@ function App() {
     thumbnail_height: 380,
   };
 
-  // push
   movies.push(movie1, movie2);
-  // console.log("pushed movie 1& 2", movies);
 
-  // pop
-  // movies.pop();
-  // console.log("popped", movies);
-
-  // shift - deletes first element
-  // movies.shift();
-  // console.log("shift", movies);
   return (
     <div className="background">
       <div className="card-wrapper">
         {movies.map((movie, index) => {
           const movieTitle = movie.title;
           const movieYear = movie.year;
+          const moviePoster = movie.thumbnail;
           const movieCast = movie.cast.join(" ");
           console.log(movieTitle, index + 1, movie);
           return (
             <div className="card">
+              <div className="movie-poster">
+                <img src={moviePoster} alt="poster" />
+              </div>
               <h2>{movieTitle}</h2>
               <p>{movieYear}</p>
               <p>{movieCast}</p>
