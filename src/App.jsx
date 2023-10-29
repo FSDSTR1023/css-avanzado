@@ -21,6 +21,90 @@ function App() {
         </nav>
         <main>
 
+          <h2>Blog</h2>
+
+          <div className="blog-wrapper">
+
+            <div className="blog-title">
+              <h3>From the blog</h3>
+              <p>Learn how to grow your business with our expert advice.</p>
+            </div>
+
+            <div className="blog-content">
+
+              <div className="blog-post">
+                <img src="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg" alt="post" />
+                <div className="post-info">
+                  <span className="post-date">Mar 16, 2020</span>
+                  <span className="post-category">Marketing</span>
+                </div>
+                <div className="post-content">
+                  <h4>Boost your conversion rate</h4>
+                  <p>
+                    Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.
+                  </p>
+                </div>
+                <div className="post-author">
+                  <div className="post-author-img">
+                    <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="author" />
+                  </div>
+                  <div className="post-author-info">
+                    <strong>Michael Foster</strong>
+                    <span>Co-Founder / CTO</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="blog-post">
+                <img src="https://images.pexels.com/photos/2811648/pexels-photo-2811648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="post" />
+                <div className="post-info">
+                  <span className="post-date">Mar 10, 2020</span>
+                  <span className="post-category">Sales</span>
+                </div>
+                <div className="post-content">
+                  <h4>How to use search engine optimization to drive sales</h4>
+                  <p>
+                    Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.
+                  </p>
+                </div>
+                <div className="post-author">
+                  <div className="post-author-img">
+                    <img src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="author" />
+                  </div>
+                  <div className="post-author-info">
+                    <strong>Lindsay Walton</strong>
+                    <span>Front-end Developer</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="blog-post">
+                <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="post" />
+                <div className="post-info">
+                  <span className="post-date">Feb 12, 2020</span>
+                  <span className="post-category">Business</span>
+                </div>
+                <div className="post-content">
+                  <h4>Improve your customer experience</h4>
+                  <p>
+                    Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.
+                  </p>
+                </div>
+                <div className="post-author">
+                  <div className="post-author-img">
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="author" />
+                  </div>
+                  <div className="post-author-info">
+                    <strong>Tom Cook</strong>
+                    <span>Director of Product</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
           <h2>Reviews</h2>
 
           <div className="review-wrapper">
