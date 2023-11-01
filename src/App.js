@@ -5,7 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav className='nav-wrapper'>
         <img src={logo} className="App-logo" alt="logo" />
+          <ul className='nav-item'>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
+       </nav>
+      
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

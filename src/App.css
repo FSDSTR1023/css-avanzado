@@ -3,8 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /*width: 10%;
   pointer-events: none;
+  font-size: 24px;*/
+  width: auto; /* Establece el ancho en automático para mantener la relación de aspecto */
+  height: 100px; /* Establece la altura deseada */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,13 +16,19 @@
   }
 }
 
+.App-logo:hover {
+  transform: rotate(-45deg); /* Rotación en sentido contrario al sentido de las manecillas del reloj */
+  color: #61dafb; /* Cambio de color al pasar el cursor */
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +44,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Elimina los marcadores de lista */
+}
+
+.nav-item li {
+  cursor: pointer;
+}
+
+.nav-item a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: #61dafb;
 }
