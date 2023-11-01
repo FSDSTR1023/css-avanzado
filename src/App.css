@@ -3,8 +3,11 @@
 }
 
 .App-logo {
-  width: 10%;
+  /*width: 10%;
   pointer-events: none;
+  font-size: 24px;*/
+  width: auto; /* Establece el ancho en automático para mantener la relación de aspecto */
+  height: 100px; /* Establece la altura deseada */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,6 +15,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.App-logo:hover {
+  transform: rotate(-45deg); /* Rotación en sentido contrario al sentido de las manecillas del reloj */
+  color: #61dafb; /* Cambio de color al pasar el cursor */
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -45,20 +54,25 @@
   padding: 1rem 5rem;
 }
 
-.nav-item{
+.nav-item {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: flex-end;
   gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Elimina los marcadores de lista */
+}
+
+.nav-item li {
   cursor: pointer;
 }
 
-.nav-item li{
-  list-style: none;
+.nav-item a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: white;
+  transition: color 0.3s;
 }
 
-.nav-item li:hover {
-  color: #61dafb; 
-  cursor: pointer;
+.nav-item a:hover {
+  color: #61dafb;
 }
