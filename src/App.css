@@ -139,11 +139,70 @@
   height: 100%;
 }
 
+.reviews {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-top: 40px;
+}
 
+.datos {
+  align-content: center;
+}
 
+.puntuaciones {
+  width: 40vh;
+  align-items: flex-start;
+}
+
+.comentarios {
+  width:60vh;
+}
+
+.comentarios hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fotoreview {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.datos {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.datosreviews {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+.comentariostexto {
+  text-align: left;
+  color: grey;
+  font-style: italic;
+}
+
+.datosreviews span {
+  font-weight: bold;
+}
+
+.estrellas {
+  display:flex;
+  align-items: center;
+  padding-left: 20px;
+}
 
 .App-footer {
   background-color: rgb(243 244 246);
   min-height: 20vh;
   color: black;
 }
+
