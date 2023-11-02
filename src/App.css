@@ -148,10 +148,6 @@
   padding-top: 40px;
 }
 
-.datos {
-  align-content: center;
-}
-
 .puntuaciones {
   width: 40vh;
   align-items: flex-start;
@@ -159,6 +155,7 @@
 
 .comentarios {
   width:60vh;
+  padding: 30px;
 }
 
 .comentarios hr{
@@ -182,6 +179,20 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: left;
+  align-content: center;
+}
+
+.customerreviews {
+  display:flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+
+.customerreviews span{
+  padding-left: 10px;
 }
 
 .comentariostexto {
@@ -198,6 +209,16 @@
   display:flex;
   align-items: center;
   padding-left: 20px;
+}
+
+.textoizqda {
+  text-align: left;
+}
+
+.boton {
+  width:100%;
+  color: rgb(17 24 39);
+  border-radius: 0.375 em;
 }
 
 .App-footer {
