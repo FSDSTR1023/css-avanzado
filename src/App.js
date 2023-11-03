@@ -309,7 +309,68 @@ function App() {
 
       {/* SEGUNDO EJERCICIO */}
         <div>
-
+          <div id='stripedRows'>
+            <div className='users'>
+              <div className='usersTitle'>
+                <h3>Users</h3>
+                <p>A list of all the users in your account including their name, title, email and role.</p>
+              </div>
+              <div className='usersAddBtn'>
+                <button>Add user</button>
+              </div>
+            </div>
+            <div className='usersTable'>
+              <div className="grid-row header">
+                <div className="grid-cell">Name</div>
+                <div className="grid-cell">Title</div>
+                <div className="grid-cell">Email</div>
+                <div className="grid-cell">Role</div>
+                <div className="grid-cell"></div>
+              </div>
+              <div className="grid-row odd">
+                <div className="grid-cell">Lindsay Walton</div>
+                <div className="grid-cell">Front-end Developer</div>
+                <div className="grid-cell">lindsay.walton@example.com</div>
+                <div className="grid-cell">Member</div>
+                <div className="grid-cell"><a href='#'>Edit</a></div>
+              </div>
+              <div className="grid-row even">
+                <div className="grid-cell">Courtney Henry</div>
+                <div className="grid-cell">Designer</div>
+                <div className="grid-cell">courtney.henry@example.com</div>
+                <div className="grid-cell">Admin</div>
+                <div className="grid-cell"><a href='#'>Edit</a></div>
+              </div>
+              <div className="grid-row odd">
+                <div className="grid-cell">Tom Cook</div>
+                <div className="grid-cell">Director of Product</div>
+                <div className="grid-cell">tom.cook@example.com</div>
+                <div className="grid-cell">Member</div>
+                <div className="grid-cell"><a href='#'>Edit</a></div>
+              </div>
+              <div className="grid-row even">
+                <div className="grid-cell">Whitney Francis</div>
+                <div className="grid-cell">Copywriter</div>
+                <div className="grid-cell">whitney.francis@example.com</div>
+                <div className="grid-cell">Admin</div>
+                <div className="grid-cell"><a href='#'>Edit</a></div>
+              </div>
+              <div className="grid-row odd">
+                <div className="grid-cell">Leonard Krasner</div>
+                <div className="grid-cell">Senior Designer</div>
+                <div className="grid-cell">leonard.krasner@example.com</div>
+                <div className="grid-cell">Owner</div>
+                <div className="grid-cell"><a href='#'>Edit</a></div>
+              </div>
+              <div className="grid-row even">
+                <div className="grid-cell">Floyd Miles</div>
+                <div className="grid-cell">Principal Designer</div>
+                <div className="grid-cell">floyd.miles@example.com</div>
+                <div className="grid-cell">Member</div>
+                <div className="grid-cell"><a href='#'>Edit</a></div>
+              </div>
+            </div>
+          </div>
         </div>
 
 

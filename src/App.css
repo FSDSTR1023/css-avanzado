@@ -255,10 +255,10 @@ main {
   grid-template-areas: 
     "writer-img writer-name"
     "writer-img writer-job";
-    justify-content: start;
-    align-items: start;
-    grid-auto-flow: column;
-    margin-top: 2rem;
+  justify-content: start;
+  align-items: start;
+  grid-auto-flow: column;
+  margin-top: 2rem;
 }
 
 .layout-card-person > img{
@@ -285,3 +285,58 @@ main {
   grid-area: writer-job;
   margin: 0;
 }
+
+/* SEGUNDO EJERCICIO */
+
+#stripedRows {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.users {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.usersTitle {
+  margin-left: 3rem;
+}
+
+.usersAddBtn > button {
+  border-radius: 1rem;
+  background-color: #4f46e5;
+  width: 100px;
+  height: 50px;
+  font-size: larger;
+  color: #FFFFFF;
+}
+
+.usersTable {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+
+.header {
+  font-weight: bold;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: 20% 20% 40% 10% 10%;
+  padding: 10px;
+}
+
+.grid-cell {
+  padding: 10px;
+}
+
+.even {
+  background-color: #ebebeb;
+}
+
+
