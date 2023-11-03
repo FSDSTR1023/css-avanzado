@@ -4,6 +4,9 @@ import './App.css';
 function App() {
   return (
     <><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /><body className="App">
+      
+    {/* FELXBOX */}
+    {/* PRIMER EJERCICIO */}
       <header className="App-header">
         <nav className='nav-wrapper'>
           <img src={logo} className="App-logo" alt="logo" />
@@ -18,13 +21,15 @@ function App() {
           </div>
         </nav>
       </header>
+
+    {/* SEGUNDO EJERCICIO */}
       <main>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Jane Cooper</h3>
+            <p>Paradigm Representative</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -39,10 +44,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Cody Fisher</h3>
+            <p>Lead Security Associate</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -57,10 +62,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Esther Howard</h3>
+            <p>Assurance Administrator</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -75,10 +80,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1498551172505-8ee7ad69f235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Jenny Wilson</h3>
+            <p>Chief Accountability Analyst</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -93,10 +98,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1532417344469-368f9ae6d187?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Kristin Watson</h3>
+            <p>Investor Data Orchestrator</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -111,10 +116,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Cameron Williamsone</h3>
+            <p>Product Infrastructure Executive</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -129,10 +134,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Courtney Henry</h3>
+            <p>Investor Factors Associate</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -147,10 +152,10 @@ function App() {
         </section>
         <section className='card-wrapper'>
           <div className='card-info'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330' alt='Personal'></img>
-            <h3>First name Second name</h3>
-            <p>Work position</p>
-            <p>Status</p>
+            <img src='https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' alt='Personal'></img>
+            <h3>Theresa Webb</h3>
+            <p>Global Division Officer</p>
+            <p className='card-info-workStatus'>Admin</p>
           </div>
           <div className='card-contact'>
             <div className='card-email'>
@@ -164,6 +169,87 @@ function App() {
           </div>
         </section>
       </main>
+
+    {/* TERCER EJERCICIO */}
+    <div>
+      <div id='navigation'>
+        <div id='searchBar'>
+          <img src='https://www.svgrepo.com/show/486229/magnifying-glass-backup.svg' alt='Search' />
+          <input className='searchText' type='text' placeholder='Search'/>
+        </div>
+        <ul id='options'>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/468382/create-note-alt.svg' alt='Text formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Text</p>
+              <p>Add freeform text with basic formatting options.</p>
+            </div>
+          </li>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/470257/video-recorder.svg' alt='Video formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Video</p>
+              <p>Add a video from YouTube, Vimeo or other services.</p>
+            </div>
+          </li>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/467646/copy-5.svg' alt='Page formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Page</p>
+              <p>Add a new blank page to your project.</p>
+            </div>
+          </li>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/468159/calendar-event.svg' alt='Calendar formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Calendar</p>
+              <p>Add a full month calendar or a week view calendar.</p>
+            </div>
+          </li>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/467637/columns-3-2.svg' alt='Table formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Table</p>
+              <p>Add a table for displaying larger sets of data.</p>
+            </div>
+          </li>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/468819/file-code.svg' alt='Code formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Code</p>
+              <p>Add raw HTML, JavaScript or CSS code.</p>
+            </div>
+          </li>
+          <li className='optionsBar'>
+            <div className='optionsBarImg'>
+              <img src='https://www.svgrepo.com/show/469052/image-frame.svg' alt='Images formulary icon'/>
+            </div>
+            <div className='optionsBarText'>
+              <p className='optionsBarTextTitle'>Image</p>
+              <p>Add a simple image or a photo gallery.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+
+
+
+    {/* GRID */}
+    {/* PRIMER EJERCICIO */}
       <article className='layout'>
         <div className='layout-head'>
           <h2>From the blog</h2>
@@ -220,6 +306,13 @@ function App() {
           </div>
         </div>        
       </article>
+
+      {/* SEGUNDO EJERCICIO */}
+        <div>
+
+        </div>
+
+
     </body></>
   );
 }
