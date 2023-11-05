@@ -227,3 +227,69 @@
   color: black;
 }
 
+.footerbox {
+  border-radius: 20px;
+  max-width: 36rem;
+  margin: auto;
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+  background-color: rgb(255 255 255);
+}
+
+.busqueda {
+  align-items: center;
+  
+}
+
+.busqueda input {
+  border-width: 0;
+  margin-left: 1em;
+  width: 80%;
+  height:30px;
+  font-size: 18px;
+  color: grey;
+}
+
+.iconobusqueda {
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.iconos {
+  width: 40px;
+  height: 40px;
+}
+
+.listabusqueda {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: left;
+  max-height: 24rem;
+  list-style: none;
+  padding: 10px;
+}
+
+.elementolista {
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+  padding: 20px;
+  text-align: justify;
+}
+
+.listabusqueda li:hover{
+  background-color: rgb(246 246 246);
+  border-radius: 10px;
+}
+
+.textobusqueda {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-left: 10px;
+}
+
+.fuentegris {
+  color: grey;
+}
