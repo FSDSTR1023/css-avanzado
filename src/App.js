@@ -65,6 +65,70 @@ function App() {
           </div>
         </div>
       </main>
+      <footer className="App-footer">
+        <div className="partesuperior">
+          <div className="textosuperior">
+            <span>Users</span>
+            <span className="textogris">A list of all the users in your account including their name, title, email and role.</span>
+          </div>
+            <button className="btn-users">Add user</button>
+        </div>
+        <div className="tablaentera">
+            <table className="tabla">
+              <tr className="encabezados">
+                <th scope="col">Name</th>
+                <th scope="col">Title</th>
+                <th scope="col">Email</th>
+                <th scope="col">Role</th>
+                <th scope="col"></th>
+              </tr>
+            <tbody>
+              <tr>
+                <td>Lindsay Walton</td>
+                <td className="textogris">Front-end Developer</td>
+                <td className="textogris">lindsay.walton@example.com</td>
+                <td className="textogris">Member</td>
+                <td><a href="#" className="botoneditar">Edit</a></td>
+              </tr>
+              <tr>
+                <td>Courtney Henry</td>
+                <td className="textogris">Designer</td>
+                <td className="textogris">courtney.henry@example.com</td>
+                <td className="textogris">Admin</td>
+                <td><a href="#" className="botoneditar">Edit</a></td>
+              </tr>
+              <tr>
+                <td>Tom Cook</td>
+                <td className="textogris">Director of Product</td>
+                <td className="textogris">tom.cook@example.com</td>
+                <td className="textogris">Member</td>
+                <td><a href="#" className="botoneditar">Edit</a></td>
+              </tr>
+              <tr>
+                <td>Whitney Francis</td>
+                <td className="textogris">Copywriter</td>
+                <td className="textogris">whitney.francis@example.com</td>
+                <td className="textogris">Admin</td>
+                <td><a href="#" className="botoneditar">Edit</a></td>
+              </tr>
+              <tr>
+                <td>Leonard Krasner</td>
+                <td className="textogris">Senior Designer</td>
+                <td className="textogris">leonard.krasner@example.com</td>
+                <td className="textogris">Owner</td>
+                <td><a href="#" className="botoneditar">Edit</a></td>
+              </tr>
+              <tr>
+                <td>Floyd Miles</td>
+                <td className="textogris">Principal Designer</td>
+                <td className="textogris">floyd.miles@example.com</td>
+                <td className="textogris">Member</td>
+                <td><a href="#" className="botoneditar">Edit</a></td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
+      </footer>
     </div>
   );
 }

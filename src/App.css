@@ -88,3 +88,66 @@ a:hover {
   text-align: left;
   padding-left: 10px;
 }
+
+.App-footer {
+  margin: 30px;
+}
+
+.partesuperior {
+  display:grid;
+  grid-template-columns: 90% auto;
+}
+
+.textosuperior {
+  display:grid;
+  grid-template-rows: repeat(2,1fr);
+  text-align: left;
+}
+
+.btn-users {
+  font-size: 16px;
+  background-color: rgba(0, 0, 255);
+  color:white;
+  border-radius: 13%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn-users:hover {
+  background-color: rgb(0, 0, 255, 0.603);
+}
+
+.tabla {
+  display: grid;
+  display: table-row;
+  grid-template-columns: repeat (5, 1fr);
+  border-collapse: collapse;
+  padding-top: 30px;
+  width: 100%;
+  text-align: left;
+}
+
+.tabla th {
+  border-bottom: solid 1px grey;
+}
+
+.tabla tbody tr:nth-child(odd) {
+  background-color: #ffffff; 
+}
+
+.tabla tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.tabla td, .tabla th {
+  padding: 8px;
+  text-align: left;
+}
+
+.botoneditar {
+  color: blue;
+}
+
+.botoneditar:hoover {
+  color:black;
+}
