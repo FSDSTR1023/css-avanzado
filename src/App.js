@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import icon from './icon.svg';
+
 
 function App() {
   return (
@@ -16,81 +18,113 @@ function App() {
           </ul>
         </nav>
       </header>
-    <div className='ejercicio-cards'>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
+      <div className='ejercicio-cards'>
+        <div className='card-row'>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
+        <div className='card-row'>
+        <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
+          <div className='card'>
+            <img src={icon} alt="icon"/>
+            <h3>QuienSea Whoever</h3>
+            <h4>Lo que sea, whatever</h4>
+            <button className='rol'>Admin</button>
+            <div className='buttons-row'>
+              <h3>eMail</h3>
+              <h3>Call</h3>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
-        </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
-        </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
-        </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
-        </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
-        </div>
-      </div>
-      <div className='card'>
-        <p className='nombre'>Quien sea</p>
-        <p className='cargo'>Lo que sea</p>
-        <p className='rol'>Admin</p>
-        <div className='botones'>
-          <p className='eMail'>eMail</p>
-          <p className='call'>Call</p>
+        <div className='ejercicio-palette'>
+          <div className='palette'>
+            <input type="text" />
+            <ul>
+              <li>
+                Emily Selman
+              </li>
+              <li>
+                Emma Dorsley
+              </li>
+              <li>
+                Benjamin Russel
+              </li>
+              <li>
+                Chelsea Hagon
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    </div>
+    
   );
 }
 
