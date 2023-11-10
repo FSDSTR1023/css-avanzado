@@ -63,17 +63,53 @@
   align-items: center;
   padding: 60px;
   margin: 0 auto;
-  
-  width: 40%;
+  background-color:#f3f4f6;
+  width: 80%;
   
   
 }
 
 .box {
-  width: 200px;
-  height: 200px;
-  background-color: lightskyblue;
+  width: 300px;
+  color: black;
+  font-weight: 600;
+  background-color: white;
   margin: 6px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box > img {
+  width: 150px;
+  border-radius: 50%;
+  padding-top: 15px;
+  
+}
+
+.box > p {
+  font-size: 15px;
+  font-weight: 100;
+
+}
+
+.admin {
+  border: 1px solid #a3ceaf;
+  border-radius: 2rem;
+  background-color: hsl(138, 76%, 97%);
+  padding: 10px 4px;
+  width: 20%;
+}
+
+.button {
+  width: 300px;
+
+}
+.button > button {
+  width: 150px;
+  background-color: white;
 
 
 }

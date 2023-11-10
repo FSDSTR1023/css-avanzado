@@ -20,13 +20,77 @@ function App() {
         <body>
           <h1>Tarjetas de contacto</h1>
           <br></br>
-          <div class="container">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+          <div className="container">
+            <div className="box">
+              <img alt="foto1" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" />
+              <h5>Jane Cooper</h5>
+              <p>Paradigm Represantative</p>
+              <p className="admin">Admin</p>
+              <div className="button">
+                
+              <button>Email</button>
+              <button>Call</button>
+              </div>
+            </div>
+            <div className="box">
+            <img alt="foto2" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" />
+              <h5>Jane Cooper</h5>
+              <p>Paradigm Represantative</p>
+              <p className="admin">Admin</p>
+              <div className="button">
+                
+              <button>Email</button>
+              <button>Call</button>
+              </div>
+            </div>
+            <div className="box">
+            <img alt="foto1" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" />
+              <h5>Jane Cooper</h5>
+              <p>Paradigm Represantative</p>
+              <p className="admin">Admin</p>
+              <div className="button">
+                
+              <button>Email</button>
+              <button>Call</button>
+              </div>
+            </div>
+            <div className="box">
+            <img alt="foto1" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" />
+              <h5>Jane Cooper</h5>
+              <p>Paradigm Represantative</p>
+              <p className="admin">Admin</p>
+              <div className="button">
+                
+              <button>Email</button>
+              <button>Call</button>
+              </div>
+              
+            </div>
+            <div className="box">
+            <img alt="foto1" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" />
+              <h5>Jane Cooper</h5>
+              <p>Paradigm Represantative</p>
+              <p className="admin">Admin</p>
+              <div className="button">
+                
+              <button>Email</button>
+              <button>Call</button>
+              </div>
+
+              
+            </div>
+            <div className="box">
+            <img alt="foto1" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" />
+              <h5>Jane Cooper</h5>
+              <p>Paradigm Represantative</p>
+              <p className="admin">Admin</p>
+              <div className="button">
+                
+              <button>Email</button>
+              <button>Call</button>
+              </div>
+
+            </div>
           </div>
         </body>
         
