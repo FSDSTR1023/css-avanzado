@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      
       <nav className= "nav-wrapper">
         <img src={logo} className="App-logo" alt="logo" />
         <ul className= "nav-items">
@@ -14,10 +15,21 @@ function App() {
           <li>Company</li>
           <li>users</li>
         </ul>
+        
       </nav>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <body>
+          <h1>Tarjetas de contacto</h1>
+          <br></br>
+          <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </body>
+        
         <a
           className="App-link"
           href="https://reactjs.org"

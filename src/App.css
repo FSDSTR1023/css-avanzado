@@ -55,3 +55,25 @@
   list-style-type:none;
 
  }
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin: 0 auto;
+  
+  width: 40%;
+  
+  
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightskyblue;
+  margin: 6px;
+
+
+}
