@@ -1,130 +1,71 @@
-# CSS AVANZADO
+# Getting Started with Create React App
 
-## Primeros pasos:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Clonar repositorio y abrir repo en VSC
-    
-1. Navegar a la carpeta donde clonaremos el repositorio, por ejemplo Desktop
+## Available Scripts
 
-    Navegar a carpeta:
-    ```
-    cd Desktop/
-    ```
+In the project directory, you can run:
 
-    Listar elementos de la carpeta
-    ```
-    ls
-    ```
-    
-    Volver atrás, carpeta anterior
-    ```
-    cd ..
-    ```
-      
-2. Clonar repositorio (se creará una carpeta dentro de la carpeta a la que hemos navegado)
+### `npm start`
 
-```
-gh repo clone FSDSTR1023/css-avanzado
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Este comando lo podéis encontrar en github > Code (botón verde). Cada repositorio tiene este comnado actualizando el nombre del repositorio en cada caso.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. Abrir la carpeta creada tras el clon en Visual Studio Code (VSC)
-    - Si estás dentro de VSC: File > Open Folder > Seleccionar la carpeta y abrir
-    - Arrastrar carpeta a VSC
+### `npm test`
 
-### Crear y acceder a ramas
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. Crear una rama nueva: 
+### `npm run build`
 
-```
-git branch
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Estándar nombre ramas: nombre/ft-flex `cpicatoste/ft-nav`. Ejemplo = `git branch cpicatoste/ft-nav`
-        
-5. Navegar a la rama creada: 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```
-git checkout
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Ejemplo: `git checkout cpicatoste/ft-nav`
+### `npm run eject`
 
-### Iniciar proyecto
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-6. Instalar las dependencias de node: `npm i` o `npm install`
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-npm install
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-7. Levantar el proyecto:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```
-npm run
-```
+## Learn More
 
-### Commit y push desde menú lateral de VSC
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-8. Hacer los cambios del código
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-9. Hacer commit y push de nuestra rama a github desde el menú lateral (icono de git)
-    - Añadir archivos que queremos subir con el icono +
-    - Escribir un mensaje en el input: `Feat: navbar implementation`
-    - Hacer `commit`
-    - Hacer `push` desplegando el menú o `Syncronize branch`
+### Code Splitting
 
-### Commit y push desde la Terminal
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Para hacer un `commit` y luego un `push` en Git desde la Terminal, puedes seguir los siguientes pasos utilizando la línea de comandos:
+### Analyzing the Bundle Size
 
-1. **Añadir cambios al área de preparación (staging area):**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Si quieres añadir todos los archivos modificados:
+### Making a Progressive Web App
 
-```
-git add .
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Si sólo quieres añadir algunos archivos en particular:
+### Advanced Configuration
 
-```.
-git add nombre_del_archivo1 nombre_del_archivo2
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-2. **Hacer un commit de esos cambios:**
+### Deployment
 
-```
-git commit -m "Mensaje descriptivo del commit"
-```
-        
-3. **Push (empujar) esos cambios al repositorio remoto:**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Si ya has configurado una rama por defecto, puedes simplemente usar:
+### `npm run build` fails to minify
 
-```
-git push
-```
-
-Si quieres especificar el nombre del repositorio remoto (por defecto suele ser `origin`) y la rama (por ejemplo, `main` o `master`):
-
-```
-git push origin nombre_de_la_rama
-```
-
-Entonces, resumiendo, el flujo básico sería:
-
-```bash
-git add .
-git commit -m "Tu mensaje aquí"
-git push
-```
-        
-Siempre es buena idea asegurarse de tener la última versión del repositorio antes de hacer un push, así que podrías hacer un `git pull` antes de estos pasos si estás trabajando en colaboración con otros. Esto ayudará a reducir posibles conflictos.
-
-### Configuración global de git
-
-`git config --global user.name` # to check username
- 
-`git config --global user.email` # to check email
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# css-avanzado
